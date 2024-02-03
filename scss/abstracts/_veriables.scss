@@ -6,4 +6,54 @@ $light-silver-color: #fafafa;
 $secondary-black:#101010;
 
 
-.header-
+.footer {
+    width: 100%;
+    background-color: #101010;
+    height: 250px;
+    padding: 75px 165px;
+  }
+  
+  .fotter__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+  }
+  
+  .fotter__sitenav__item {
+    display: flex;
+    gap: 34px;
+    margin-top: -1px;
+  }
+  
+  .fotter__sitenav__link {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .fotter__sitenav__link:hover {
+    color: #D87D4A;
+  }
+  
+  .fotter__text {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fotter__text p {
+    width: 540px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.5;
+  }
+  .fotter__text ul {
+    margin-top: 70px;
+    display: flex;
+    gap: 16px;
+  }
+  .fotter__text a:hover svg path {
+    fill: #D87D4A;
+  }
